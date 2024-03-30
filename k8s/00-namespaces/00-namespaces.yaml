@@ -2,6 +2,12 @@
 kind: Namespace
 apiVersion: v1
 metadata:
+  name: docker-build
+
+---
+kind: Namespace
+apiVersion: v1
+metadata:
   name: ingress-nginx
 
 ---
@@ -15,6 +21,12 @@ kind: Namespace
 apiVersion: v1
 metadata:
   name: docker-registry
+
+---
+kind: Namespace
+apiVersion: v1
+metadata:
+  name: database
 
 ---
 kind: Namespace
